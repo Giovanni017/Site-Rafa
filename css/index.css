@@ -1,0 +1,83 @@
+/* Estrutura site */
+body {
+    background: #c5c5c5 url(../assets/fundo.png) repeat-x;
+    font: 12px "Lucida Grande", 'Lucida Sans Unicode', Arial, sans-serif ;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+@font-face {
+    font-family: "autography";
+    src: url("Autography.woff");
+}
+
+h1 a {
+    font-size: 1.5em;
+    font-family: "autography";
+    color: white;
+    text-decoration: none;
+    margin: auto 30px;
+}
+
+/* Barra de navegação */
+header {
+    height: 55px;
+    padding: 15px 0;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin: -155px 30px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a:link {
+    display: block;
+    padding: 3px 15px;
+    text-transform: uppercase;
+    margin: 90px 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid #a3a3a3;
+    color: darkgray;
+}
+
+/* Principal */
+h3 {
+	color: black;
+	font-size: 1.0em;
+	text-transform: uppercase;
+}
+
+p {
+    padding: 10px;
+}
+
+#conteudo {
+    float: left;
+    width: 710px;
+    margin: 70px auto;
+    border: 1px solid red;
+}
+
+#mais {
+    display: none;
+}
