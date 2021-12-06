@@ -13,4 +13,3 @@ if(pontos.style.display === "none"){
     btnLeiaMais.innerHTML="Leia Menos"
 }
 }
-.
