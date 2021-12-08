@@ -11,6 +11,7 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 /* header */
@@ -61,23 +62,94 @@ nav ul li a:hover {
 }
 
 /* Principal */
-h3 {
+h2 {
 	color: black;
-	font-size: 1.0em;
+	font-size: 1.6em;
 	text-transform: uppercase;
+    text-align: center;
 }
 
 p {
-    padding: 10px;
+    padding: 5px 20px;
+    font-size: 1.3em;
+    text-justify: distribute;
+}
+
+#postagens {
+    background: url(../assets/bg-area-principal.png);
 }
 
 #conteudo {
     float: left;
     width: 710px;
     margin: 70px auto;
-    border: 1px solid red;
+    background: #c5c5c5 url(../assets/bg-area-principal.png) top repeat-x;
+    
 }
 
 #mais {
     display: none;
+}
+
+#btn {
+    display: none;
+}
+
+#list {
+    display: inherit;
+}
+
+#fotos {
+    margin: auto 90px;
+}
+
+.espaço {
+    padding: 10px 20px;
+}
+
+#mais ul li a {
+    text-transform: uppercase;
+    color: rgb(56, 56, 56);
+}
+
+#mais ul li a:hover {
+    border-bottom: 1px solid #535858
+}
+
+#btn ul li a {
+    text-transform: uppercase;
+    color: rgb(56, 56, 56);
+}
+
+#btn ul li a:hover {
+    border-bottom: 1px solid #535858
+}
+
+#complet{
+    background: #c5c5c5 url(../assets/bg-area-principal.png) top repeat-x;
+    float: left;
+}
+
+/* aside */
+#area-lateral {
+    float: right;
+    margin: 70px -20px 0px 0px; 
+    width: 350px;
+    background: url(../assets/bg-area-lateral.png);
+}
+
+h3 {
+    color: black;
+	font-size: 1em;
+	text-transform: uppercase;
+    text-align: center;
+}
+
+#conteudo-lateral ul li a {
+    text-transform: uppercase;
+    color: rgb(31, 31, 31);
+}
+
+#conteudo-lateral ul li a:hover {
+    border-bottom: 1px solid #535858
 }
