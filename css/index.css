@@ -153,3 +153,11 @@ h3 {
 #conteudo-lateral ul li a:hover {
     border-bottom: 1px solid #535858
 }
+
+/* rodape */
+footer{
+	clear: both;
+	margin-top: 20px;
+	padding: 20px 0 30px 250px;
+	text-align: inherit;
+}
