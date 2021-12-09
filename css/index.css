@@ -10,6 +10,7 @@ body {
 }
 
 a {
+    color: black;
     text-decoration: none;
 }
 
@@ -20,11 +21,11 @@ a {
 }
 
 h1 a {
-    font-size: 1.5em;
-    font-family: "autography";
     color: white;
-    text-decoration: none;
+    font-family: "autography";
+    font-size: 1.5em;
     margin: auto 30px;
+    text-decoration: none;
 }
 
 /* Barra de navegação */
@@ -45,9 +46,9 @@ nav ul li {
 
 nav ul li a:link {
     display: block;
+    margin: 90px 30px;
     padding: 3px 15px;
     text-transform: uppercase;
-    margin: 90px 30px;
 }
 
 nav ul li a {
@@ -61,23 +62,102 @@ nav ul li a:hover {
 }
 
 /* Principal */
-h3 {
+h2 {
 	color: black;
-	font-size: 1.0em;
+	font-size: 1.6em;
 	text-transform: uppercase;
+    text-align: center;
 }
 
 p {
-    padding: 10px;
+    font-size: 1.3em;
+    padding: 5px 20px;
+    text-justify: distribute;
+}
+
+#postagens {
+    background: url(../assets/bg-area-principal.png);
 }
 
 #conteudo {
+    
+    background: #c5c5c5 url(../assets/bg-area-principal.png) top repeat-x;
     float: left;
-    width: 710px;
     margin: 70px auto;
-    border: 1px solid red;
+    width: 710px;
 }
 
 #mais {
     display: none;
+}
+
+#btn {
+    display: none;
+}
+
+#list {
+    display: inherit;
+}
+
+#fotos {
+    margin: auto 90px;
+}
+
+.espaço {
+    padding: 10px 20px;
+}
+
+#mais ul li a {
+    color: rgb(56, 56, 56);
+    text-transform: uppercase;
+}
+
+#mais ul li a:hover {
+    border-bottom: 1px solid #535858
+}
+
+#btn ul li a {
+    color: rgb(56, 56, 56);
+    text-transform: uppercase;
+}
+
+#btn ul li a:hover {
+    border-bottom: 1px solid #535858
+}
+
+#complet{
+    background: #c5c5c5 url(../assets/bg-area-principal.png) top repeat-x;
+    float: left;
+}
+
+/* aside */
+#area-lateral {
+    background: url(../assets/bg-area-lateral.png);
+    float: right;
+    margin: 70px -20px 0px 0px; 
+    width: 350px;
+}
+
+h3 {
+	font-size: 1em;
+	text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+
+#conteudo-lateral ul li a {
+    color: rgb(31, 31, 31);
+    text-transform: uppercase;
+}
+
+#conteudo-lateral ul li a:hover {
+    border-bottom: 1px solid #535858
+}
+
+/* rodape */
+footer{
+	clear: both;
+	margin-top: 20px;
+	padding: 20px 0 30px 250px;
+	text-align: inherit;
 }
