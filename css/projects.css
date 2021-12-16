@@ -1,7 +1,7 @@
 /* Estrutura site */
 body {
     background: #c5c5c5 url(../assets/fundo.png) repeat-x;
-    font: 12px "Lucida Grande", 'Lucida Sans Unicode', Arial, sans-serif ;
+    font: 12px "Lucida Grande", 'Lucida Sans Unicode', Arial, sans-serif;
 }
 
 #container {
@@ -59,4 +59,258 @@ nav ul li a {
 nav ul li a:hover {
     border-bottom: 1px solid #a3a3a3;
     color: darkgray;
+}
+
+/* principal */
+#conteudo {
+    background: #c5c5c5 url(../assets/bg-area-principal.png) top repeat-x;
+    float: left;
+    margin: 70px 140px;
+    width: 800px;
+}
+
+#postagens {
+    background: url(../assets/bg-area-principal.png);
+}
+
+#projeto {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+
+#list {
+    display: inherit;
+}
+
+h2 {
+	font-size: 1em;
+	text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+
+h3 {
+	font-size: 1em;
+	text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+/* projeto hotel */
+
+#mais {
+    display: none;
+}
+
+#planta {
+    margin: auto 200px;
+}
+
+#ventilação {
+    margin: auto 120px;
+}
+
+#desenho {
+    margin: auto 100px;
+}
+
+#localização {
+    margin: auto 25px;
+}
+
+#corte1 {
+    margin: auto 75px;
+}
+
+#corte2 {
+    margin: auto 75px;
+}
+
+#corte3 {
+    margin: auto 70px;
+}
+
+#corte4 {
+    margin: auto 165px;
+}
+
+#corte5 {
+    margin: auto 230px;
+}
+
+#corte6 {
+    margin: auto 230px;
+}
+
+#recepção {
+    margin: auto 110px;
+}
+
+#pavimento2 {
+    margin: auto 85px;
+}
+
+#pavimento3 {
+    margin: auto 170px;
+}
+
+#acessivel {
+    margin: auto 260px;
+}
+
+#frontal {
+    margin: auto 42px;
+}
+
+#frontal2 {
+    margin: auto 42px;
+}
+
+#recepção {
+    margin: auto 80px;
+}
+
+#recepção2 {
+    margin: auto 110px;
+}
+
+#dormitórios {
+    margin: auto 205px;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: auto 150px;
+}
+
+th, td {
+    padding: 7px;
+}
+
+th {
+    border: 1px solid #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+td {
+    border: 1px solid #111;
+}
+
+tr.alternado {
+    background-color: #efefef;
+}
+
+/* Projeto escolar */
+
+#btn {
+    display: none;
+}
+
+#implantaçãoEscolar {
+    margin: auto 22px;
+}
+
+#fluxograma {
+    margin: auto 30px;
+}
+
+#concepção {
+    margin: auto 270px;
+}
+
+#circulação {
+    margin: auto 255px;
+}
+
+#solar {
+    margin: auto 75px;
+}
+
+#estudoVentilação {
+    margin: auto 150px;
+}
+
+#cores {
+    margin: auto 170px;
+}
+
+#materiais {
+    margin: auto 80px;
+}
+
+#pavEscolar1 {
+    margin: auto 50px;
+}
+
+#pavEscolar2 {
+    margin: auto 50px;
+}
+
+#pavIntermediario {
+    margin: auto 20px;
+}
+
+#corteAB {
+    margin: auto 60px;
+}
+
+#corteCC {
+    margin: auto 55px;
+}
+
+#corteDD {
+    margin: auto 55px;
+}
+
+#elevaçãoLeste {
+    margin: auto 120px;
+}
+
+#elevaçãoNorte {
+    margin: auto 117px;
+}
+
+#elevaçãoOeste {
+    margin: auto 117px;
+}
+
+#elevaçãoSul {
+    margin: auto 117px;
+}
+
+#perspectiva1 {
+    margin: auto 151px;
+}
+
+#perspectiva2 {
+    margin: auto 214px;
+}
+
+#perspectiva3 {
+    margin: auto 35px;
+}
+
+h1#tcc a {
+    color: black;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-family: "Lucida Grande", 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+/* rodape */
+footer{
+	clear: both;
+	margin-top: 20px;
+	text-align: center;
+    padding-bottom: 30px;
 }
