@@ -74,34 +74,34 @@ nav ul li a:hover {
 }
 
 #projeto {
-    font-size: 1.3em;
-    text-transform: uppercase;
     color: black;
+    font-size: 1.3em;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #list {
     display: inherit;
 }
 
-h2 {
+h2 {  
+    color: black;
 	font-size: 1em;
 	text-transform: uppercase;
-    color: black;
     text-align: center;
 }
 
 h3 {
-	font-size: 1em;
-	text-transform: uppercase;
     color: black;
+	font-size: 1em;
     text-align: center;
+	text-transform: uppercase;
 }
 
 p {
     font-size: 1.2em;
-    text-align: justify;
     padding: 5px 10px;
+    text-align: justify;
 }
 
 /* projeto hotel */
