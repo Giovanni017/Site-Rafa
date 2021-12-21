@@ -16,11 +16,11 @@
 
 ![rafa biografia2](https://user-images.githubusercontent.com/92633222/146558357-77ba257b-56f3-4120-a8d2-1a63aff36576.jpg)
 
-### projects
+### Projects
 
 ![projetos](https://user-images.githubusercontent.com/92633222/146558432-e8fb3211-2daf-466e-8cac-8a9ec99ba12a.jpg)
 
-### contacts
+### Contacts
 
 ![contato](https://user-images.githubusercontent.com/92633222/146558475-b737bdc3-3953-4737-ae67-b34f301981d8.jpg)
 
